@@ -4,40 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar conta</title>
-
-    
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex flex-col items-center justify-center bg-red-500 ">
-    <header >
-        <h1 class="text-[50px]">Criar Conta</h1>
-        <div class="columns-3">
+
+<body class="h-screen w-screen flex flex-col items-center justify-center bg-red-600">
+    <header>
+        <h1 class="text-white flex text-[50px] pb-10">Criar Conta</h1>
+        <div class="columns-3 pb-3 h-10 w-30 mb-8">
         <img src="./img/facebook-icon.png" alt="Icone Facebook">
-        <img src="./img/google-icon.png" alt="Icone Google">
-        <img src="./img/linkind-icon.png" alt="Icone Linkind">
+        <img class="pl-3 shadow-black" src="./img/google-icon.png" alt="Icone Google">
+        <img class="pl-7" src="./img/linkind-icon.png" alt="Icone Linkind">
     </div>
     </header>
     <div class="column">
-    <h3>ou cadastre seu email</h3>
+    <h3 class="text-white flex justify-center pb-6">ou cadastre seu email</h3>
     <input type="text"
     placeholder="Nome"
-    class="w-[300px] bg-gray-50 border border-gray-300
+    class=" m-2 rounded-lg w-[300px] bg-gray-50 border border-gray-300
     text-gray-900 text-sm rounded-x1 focus:ring-blue-500
     focus:border-blue-500 block p-3 shadow-sm">
     <input type="text"
     placeholder="Email"
-    class="w-[300px] bg-gray-50 border border-gray-300
+    class="m-2 rounded-lg w-[300px] bg-gray-50 border border-gray-300
     text-gray-900 text-sm rounded-x1 focus:ring-blue-500
     focus:border-blue-500 block p-3 shadow-sm">
     <input type="text"
     placeholder="Senha"
-    class="w-[300px] bg-gray-50 border border-gray-300
+    class="m-2 rounded-lg w-[300px] bg-gray-50 border border-gray-300
     text-gray-900 text-sm rounded-x1 focus:ring-blue-500
     focus:border-blue-500 block p-3 shadow-sm">
-    <button>Cadastro</button>
 </div>
-    <footer>
-        <h2>Já tem conta? Login</h2>
+    <footer class="flex flex-col justify-center pt-5">
+        <button class="text-white rounded-lg ring-2 ring-white h-10">Cadastro</button>
+        <h2 class="text-white flex justify-center pt-5" >Já tem conta? Login</h2>
     </footer>
     
 </body>
